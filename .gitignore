@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# env — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# logs & caches
+*.log
+.DS_Store
+.turbo/
+.vercel/
